@@ -34,10 +34,10 @@ app.post("/", function(req, res){
     var jsonData = JSON.stringify(data);
     
     var options = {
-        url:"https://us20.api.mailchimp.com/3.0/lists/add4771fa9",
+        url:"https://us20.api.mailchimp.com/3.0/lists/...removed",
         method:"POST",
         headers:{
-            "Authorization": "cmapereira 70be3cb9f774461968b17178da70263c-us20"
+            "Authorization": ".... removed"
         },
         body:jsonData
     };
